@@ -1,0 +1,47 @@
+.testimonials {
+    padding: 166px 166px;
+    &__title {
+        text-align: center;
+        margin-bottom: 86px;
+        font-family: "Fraunces", serif;
+        color: $grayishBlue;
+        letter-spacing: 6px;
+        font-size: 16px;
+    }
+    &__client {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 42px;
+
+        &-one {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between; 
+            min-height: 344px;
+            &-image {
+                width: 72px;
+                height: 72px;
+                border-radius: 50%;
+            }
+            &-description {
+                color: $darkGrayishBlue;
+                font-size: 13px;
+                text-align: center;
+                line-height: 1.8;
+            }
+            &-about {
+                &-name {
+                    color: $veryDarkDesaturatedBlue;
+                  font-size: 13px;
+                  font-family: "Fraunces", serif;
+                  text-align: center;
+                }
+                &-job {
+                    color: $grayishBlue;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
