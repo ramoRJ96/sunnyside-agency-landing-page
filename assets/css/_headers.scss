@@ -47,5 +47,19 @@
   &__arrow-down {
     display: flex;
     justify-content: center;
+
+    &:hover {
+      animation: identifier 1s infinite;
+    }
+    
+  }
+}
+
+@keyframes identifier {
+  50% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }

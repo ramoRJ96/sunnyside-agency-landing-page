@@ -1,3 +1,38 @@
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    background-color: $darkModerateCyan;
+    &__logo {
+        margin-bottom: 53px;
+    }
+    &__links {
+        font-size: 13px;
+        margin-bottom: 93px;
+        & > a {
+            color: #2C7566;
+            &:hover {
+                color: $white;
+            }
+            &:not(:last-child) {
+                margin-right: 60px;
+            }
+        }
+    }
     
+    &__icons {
+        cursor: pointer;
+        & > svg {
+            &:hover {
+                & > path {
+                    fill: $white;
+                }
+            }
+            &:not(:last-child) {
+                margin-right: 28px;
+            }
+        }
+    }
 }
