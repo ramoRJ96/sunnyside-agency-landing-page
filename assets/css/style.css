@@ -80,6 +80,7 @@ h1 {
 .header {
   background-image: url("/assets/images/desktop/image-header.jpg");
   background-size: cover;
+  background-position: bottom center;
   background-repeat: no-repeat;
   width: 100%;
   min-height: 800px;
@@ -522,7 +523,7 @@ h1 {
 }
 
 .footer__links > a {
-  color: #2C7566;
+  color: #25564b;
 }
 
 .footer__links > a:hover {
