@@ -42,13 +42,13 @@ a, a:visited, a:hover {
       -ms-flex-align: center;
           align-items: center;
   background-color: white;
-  width: 142.33px;
-  height: 56.62px;
+  width: 140px;
+  height: 56px;
   cursor: pointer;
   border-radius: 30px;
-  font-weight: 600;
-  color: #19536b;
-  font-size: 14px;
+  font-weight: 500;
+  color: #23303e;
+  font-size: 15px;
 }
 
 .button:hover {
@@ -84,7 +84,7 @@ h1 {
   background-repeat: no-repeat;
   width: 100%;
   min-height: 800px;
-  padding: 21px 56px 0px 57px;
+  padding: 34px 56px 0px 40px;
 }
 
 .header__nav {
@@ -97,15 +97,13 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 118px;
+  margin-bottom: 119px;
 }
 
 .header__nav__logo {
-  color: white;
-  height: 28px;
-  font-weight: 900;
-  font-size: 29px;
   cursor: pointer;
+  height: 33px;
+  width: 170px;
 }
 
 .header__nav__link {
@@ -119,22 +117,21 @@ h1 {
 
 .header__nav__link > a {
   color: white;
-  font-size: 16px;
-  margin-right: 47.17px;
+  font-size: 17px;
+  margin-right: 52px;
 }
 
 .header__nav__link > .button {
-  margin-right: 47.17px;
   font-family: 'Fraunces', serif;
 }
 
 .header__title {
   color: white;
-  font-size: 45px;
+  font-size: 54px;
   font-family: 'Fraunces', serif;
   font-weight: 900;
   text-align: center;
-  margin-bottom: 105px;
+  margin-bottom: 107px;
   letter-spacing: 10px;
 }
 
@@ -205,9 +202,17 @@ h1 {
   margin-bottom: 51px;
 }
 
+.transform__text-beautiful-link {
+  cursor: pointer;
+}
+
+.transform__text-beautiful-link:hover > div {
+  background-color: #fad400;
+}
+
 .transform__text-beautiful-link-text-background {
   position: absolute;
-  background-color: #fad400;
+  background-color: #f6da0c;
   width: 140px;
   height: 10px;
   border-radius: 30px;

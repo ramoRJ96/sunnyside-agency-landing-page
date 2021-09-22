@@ -34,13 +34,13 @@ a, a:visited, a:hover {
     justify-content: center;
     align-items: center;
     background-color: $white;
-    width: 142.33px;
-    height: 56.62px;
+    width: 140px;
+    height: 56px;
     cursor: pointer;
     border-radius: 30px;
-    font-weight: 600;
-    color: $darkBlue;
-    font-size: 14px;
+    font-weight: 500;
+    color: $veryDarkDesaturatedBlue;
+    font-size: 15px;
 
     &:hover {
         background-color: #7ed4fc;

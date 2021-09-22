@@ -5,18 +5,16 @@
   background-repeat: no-repeat;
   width: 100%;
   min-height: 800px;
-  padding: 21px 56px 0px 57px;
+  padding: 34px 56px 0px 40px;
   &__nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 118px;
+    margin-bottom: 119px;
     &__logo {
-      color: $white;
-      height: 28px;
-      font-weight: 900;
-      font-size: $font-lg;
       cursor: pointer;
+      height: 33px;
+      width: 170px;
     }
 
     &__link {
@@ -24,12 +22,11 @@
       align-items: center;
       & > a {
         color: $white;
-        font-size: $font-sm;
-        margin-right: 47.17px;
+        font-size: 17px;
+        margin-right: 52px;
       }
 
       & > .button {
-        margin-right: 47.17px;
         font-family: 'Fraunces', serif;
       }
     }
@@ -37,11 +34,11 @@
 
   &__title {
     color: $white;
-    font-size: 45px;
+    font-size: 54px;
     font-family: 'Fraunces', serif;
     font-weight: 900;
     text-align: center;
-    margin-bottom: 105px;
+    margin-bottom: 107px;
     letter-spacing: 10px;
   }
 

@@ -23,15 +23,20 @@
             margin-bottom: 51px;
         }
         &-beautiful-link {
-            
+            cursor: pointer;
+            &:hover > div {
+                background-color: $yellow;
+                
+            }
             &-text-background {
                 position: absolute;
-                background-color: $yellow;
+                background-color: #f6da0c;
                 width: 140px;
                 height: 10px;
                 border-radius: 30px;  
                 z-index: 1;
                 transform: translateY(-10px) translateX(-5px);
+                
             }
             &-text-link {
                 position:relative;
